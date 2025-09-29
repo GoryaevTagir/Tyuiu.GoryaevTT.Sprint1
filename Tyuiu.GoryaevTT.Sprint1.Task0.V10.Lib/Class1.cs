@@ -7,7 +7,7 @@ namespace Tyuiu.GoryaevTT.Sprint1.Task0.V10.lib
     {
         public double Calculate()
         {
-            return (3 / (6 - 4)) * 3;
+            return (3/6 - 4) * 3;
         }
     }
 }
