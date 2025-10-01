@@ -1,17 +1,18 @@
-﻿using Tyuiu.GoryaevTT.Sprint7.Task7.V23.lib;
-namespace Tyuiu.GoryaevTT.Sprint7.Task7.V23.test
+﻿using Tyuiu.GoryaevTT.Sprint1.Task7.V25.Lib;
+
+namespace Tyuiu.GoryaevTT.Sprint1.Task7.V25.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public sealed class Test1
     {
         [TestMethod]
-        public void CheckCalculate()
+        public void TestMethod1()
         {
-            DataService ds = new DataService();
-            double x = Math.PI;
-            double y = Math.PI;
-            double z = ds.Calculate(x, y);
-            Assert.AreEqual(z, z);
+            Class1 ds = new Class1();
+            double x = 1;
+            double y = 2;
+            double res = ds.Calculate(x, y);
+            Assert.AreEqual(2, res);
         }
     }
 }

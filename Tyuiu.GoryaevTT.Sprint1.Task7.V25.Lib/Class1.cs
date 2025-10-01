@@ -1,21 +1,12 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
-namespace Tyuiu.GoryaevTT.Sprint7.Task7.V23.lib
+namespace Tyuiu.GoryaevTT.Sprint1.Task7.V25.Lib
 {
-    public class DataService : ISprint1Task7V23
+    public class Class1: ISprint1Task7V25
     {
         public double Calculate(double x, double y)
         {
-            x *= Math.PI;
-            y *= Math.PI;
-            if (x != 0)
-            {
-                return Math.Round(x - Math.Pow(10, Math.Sin(x)) + 20 * Math.Pow(x, 2) / (3 * Math.Pow(x, 3)) + Math.Cos(Math.Pow(x, 2) - y), 3);
-            }
-            else
-            {
-                Console.WriteLine("Число x не должно быть 0.");
-                return 0;
-            }
+            double z = Math.Round(Math.Exp(x) - (Math.Pow(y, 2) + 6 + Math.Cos(Math.Pow(x, 3) + x * y - 2 * Math.Pow(x, 2))) / (Math.Sin(Math.Pow(x, 4) + 13) + 9 * y - 2));
+            return z;
         }
     }
 }

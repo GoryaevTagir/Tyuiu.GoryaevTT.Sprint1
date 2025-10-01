@@ -7,8 +7,8 @@ namespace Tyuiu.GoryaevTT.Sprint1.Task0.V10.lib
     {
         public double Calculate()
         {
-            double x = (3 / 6);
-            return Math.Round((x - 4) * 3, 1);
+            double x = 0.5;
+            return (x - 4) * 3;
         }
     }
 }
